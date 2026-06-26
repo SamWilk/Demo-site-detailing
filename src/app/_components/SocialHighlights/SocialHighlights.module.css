@@ -1,0 +1,138 @@
+.socialSection {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 40px;
+  align-items: center;
+  padding: 52px;
+  border: 1px solid #d8e3ea;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 14px 40px rgba(16, 24, 32, 0.08);
+}
+
+.content {
+  max-width: 560px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #087f8c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.content h2 {
+  color: #101820;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.content p {
+  margin-top: 14px;
+  color: #52616b;
+  line-height: 1.7;
+}
+
+.linkGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.socialCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 86px;
+  border: 1px solid #d8e3ea;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f5f8fb;
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.socialCard:hover {
+  border-color: #b8ccd5;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(16, 24, 32, 0.08);
+}
+
+.icon {
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #101820;
+  color: #49d6c8;
+  font-size: 0.95rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.socialCard strong,
+.socialCard small {
+  display: block;
+}
+
+.socialCard strong {
+  color: #101820;
+  font-size: 1.05rem;
+}
+
+.socialCard small {
+  margin-top: 4px;
+  color: #52616b;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+  .socialSection {
+    grid-template-columns: 1fr;
+    padding: 42px;
+  }
+}
+
+@media (max-width: 640px) {
+  .socialSection {
+    width: min(100% - 36px, 1180px);
+    gap: 28px;
+    padding: 26px;
+  }
+
+  .content h2 {
+    font-size: clamp(2rem, 12vw, 2.7rem);
+  }
+
+  .socialCard {
+    align-items: flex-start;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .socialSection {
+    width: min(100% - 28px, 1180px);
+    padding: 22px;
+  }
+
+  .socialCard {
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .icon {
+    width: 42px;
+    height: 42px;
+  }
+}

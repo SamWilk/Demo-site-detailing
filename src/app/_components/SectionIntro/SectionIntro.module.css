@@ -1,0 +1,30 @@
+.sectionIntro {
+  max-width: 760px;
+  margin-bottom: 34px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #087f8c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sectionIntro h2 {
+  color: #101820;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+@media (max-width: 640px) {
+  .sectionIntro {
+    margin-bottom: 24px;
+  }
+
+  .sectionIntro h2 {
+    font-size: clamp(2rem, 12vw, 2.8rem);
+  }
+}

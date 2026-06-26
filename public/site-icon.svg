@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Florida Boys Mobile Detail icon">
+  <rect width="64" height="64" rx="12" fill="#101820"/>
+  <path d="M17 36l4.2-11.2A6 6 0 0 1 26.8 21h10.4a6 6 0 0 1 5.6 3.8L47 36" fill="#49d6c8"/>
+  <path d="M14 36h36a4 4 0 0 1 4 4v5H10v-5a4 4 0 0 1 4-4z" fill="#f7c948"/>
+  <path d="M23 45a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm18 0a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" fill="#f5f8fb"/>
+  <path d="M23 47.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm18 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" fill="#101820"/>
+  <path d="M24 27h16l2.5 7h-21z" fill="#101820" opacity=".72"/>
+</svg>

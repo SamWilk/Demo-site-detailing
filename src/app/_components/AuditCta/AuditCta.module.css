@@ -1,0 +1,125 @@
+.ctaSection {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 44px;
+  border-radius: 8px;
+  background: #e8f4f6;
+}
+
+.ctaSection > div:first-child {
+  max-width: 720px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #087f8c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ctaSection h2 {
+  color: #101820;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.ctaSection p {
+  margin-top: 12px;
+  color: #52616b;
+  line-height: 1.7;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px;
+  min-width: 300px;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-weight: 800;
+  text-align: center;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.primaryButton {
+  background: #49d6c8;
+  color: #101820;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+.secondaryButton {
+  border: 1px solid #b8ccd5;
+  background: #ffffff;
+  color: #101820;
+}
+
+.primaryButton:hover,
+.secondaryButton:hover {
+  transform: translateY(-2px);
+}
+
+.primaryButton:hover {
+  background: #7ee7dc;
+}
+
+.secondaryButton:hover {
+  background: #f5f8fb;
+}
+
+@media (max-width: 900px) {
+  .ctaSection {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .ctaSection {
+    width: min(100% - 36px, 1180px);
+    gap: 24px;
+    padding: 26px;
+  }
+
+  .actions {
+    min-width: 0;
+  }
+
+  .ctaSection a {
+    width: 100%;
+  }
+
+  .ctaSection h2 {
+    font-size: clamp(2rem, 12vw, 2.7rem);
+  }
+}
+
+@media (max-width: 380px) {
+  .ctaSection {
+    width: min(100% - 28px, 1180px);
+    padding: 22px;
+  }
+}
