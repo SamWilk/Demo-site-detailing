@@ -7,65 +7,59 @@ import SocialHighlights from "./_components/SocialHighlights/SocialHighlights";
 import styles from "./page.module.css";
 
 const serviceAreas = [
-  "Jacksonville, FL",
-  "Surrounding areas",
-  "No water needed",
-  "No power needed",
+  "Tampa",
+  "St. Pete",
+  "Clearwater",
+  "Interior and exterior",
 ];
 
 const proofPoints = [
   {
-    metric: "904",
-    label: "Jacksonville service",
-    detail: "Mobile detailing for Jacksonville, FL and nearby communities.",
+    metric: "3",
+    label: "Tampa Bay service",
+    detail: "Mobile car spa service across Tampa, St. Pete, and Clearwater.",
   },
   {
-    metric: "0",
-    label: "water or power needed",
-    detail: "Appointments can be handled without customer water or power access.",
+    metric: "24",
+    label: "Instagram posts",
+    detail: "A growing feed of mobile detailing work and clean finishes.",
   },
   {
-    metric: "5",
-    label: "core services",
-    detail: "Detailing, paint correction, ceramic coating, tinting, and water spot removal.",
+    metric: "26",
+    label: "profile followers",
+    detail: "Clean Drive Mobile Spa is building its local Tampa Bay presence.",
   },
 ];
 
 const services = [
   {
-    title: "Professional Detailing",
-    copy: "Interior and exterior detailing brought to your driveway, workplace, or parking spot across Jacksonville.",
+    title: "Interior Detailing",
+    copy: "Cabin-focused cleaning for seats, carpets, panels, trim, and the areas that make daily driving feel fresh again.",
     href: "#contact-form",
   },
   {
-    title: "Paint Correction",
-    copy: "Correction work for swirls, haze, and defects that keep paint from looking deep, glossy, and clear.",
+    title: "Exterior Detailing",
+    copy: "A mobile exterior refresh for paint, wheels, glass, tires, and the finish customers notice first.",
     href: "#contact-form",
   },
   {
-    title: "Certified Ceramic Coating",
-    copy: "Certified ceramic coating installation for long-term gloss, easier washing, and stronger paint protection.",
+    title: "Full Car Spa",
+    copy: "Interior and exterior detailing together for a complete mobile car spa appointment.",
     href: "#contact-form",
   },
   {
-    title: "Window Tinting",
-    copy: "Window tinting service for a cleaner look, added privacy, and a more comfortable cabin.",
-    href: "#contact-form",
-  },
-  {
-    title: "Paint Decontamination",
-    copy: "Water spot removal and paint decon service for contamination that a regular wash will not clear.",
+    title: "Maintenance Detail",
+    copy: "A lighter upkeep service for vehicles that need consistent cleaning between deeper details.",
     href: "#contact-form",
   },
 ];
 
 const checklist = [
-  "Professional detailing",
-  "Paint correction",
-  "Certified ceramic coatings",
-  "Window tinting",
-  "Water spot removal",
-  "Gift certificates",
+  "Interior detailing",
+  "Exterior detailing",
+  "Full car spa",
+  "Maintenance detail",
+  "Tampa Bay mobile service",
 ];
 
 export default function Home() {
@@ -76,17 +70,16 @@ export default function Home() {
 
         <div className={styles.heroGrid} id="top">
           <div className={styles.heroContent}>
-            <p className={styles.eyebrow}>Jacksonville mobile detailing</p>
-            <h1>Detail King 904 brings the detail shop to you.</h1>
+            <p className={styles.eyebrow}>Tampa Bay mobile car spa</p>
+            <h1>Clean Drive Mobile Spa brings the car spa to you.</h1>
             <p className={styles.heroText}>
-              Professional detailing, paint correction, certified ceramic
-              coating, window tinting, and water spot removal for Jacksonville,
-              FL and surrounding areas. No water or power necessary.
+              Car spa services in Tampa, St. Pete, and Clearwater with interior
+              and exterior detailing for vehicles that need a cleaner drive.
             </p>
             <div className={styles.heroActions}>
-              <a className={styles.primaryButton} href="#contact-form">
-                Book a detail
-              </a>
+              <Link className={styles.primaryButton} href="#contact-form">
+                Request a detail
+              </Link>
               <Link className={styles.secondaryButton} href="#services">
                 View services
               </Link>
@@ -123,9 +116,9 @@ export default function Home() {
           <p className={styles.eyebrow}>How the work gets handled</p>
           <h2>High-end vehicle care without needing your water or power.</h2>
           <p>
-            Detail King 904 serves Jacksonville-area drivers with mobile
-            appointments, coating-ready prep, correction work, tinting, and
-            clean follow-through from first call to finished vehicle.
+            Clean Drive Mobile Spa serves Tampa Bay drivers with mobile
+            interior and exterior appointments built around vehicle condition,
+            location, and the level of cleanup needed.
           </p>
         </div>
         <div className={styles.checkPanel}>
@@ -141,14 +134,14 @@ export default function Home() {
       <section className={styles.section} id="services">
         <SectionIntro
           eyebrow="Services"
-          title="Detailing and protection services for daily drivers, weekend cars, and clean builds."
+          title="Choose the mobile car spa service that fits the vehicle."
         />
         <div className={styles.serviceGrid}>
           {services.map((service) => (
             <article className={styles.serviceCard} key={service.title}>
               <h3>{service.title}</h3>
               <p>{service.copy}</p>
-              <Link href={service.href}>Request help</Link>
+              <Link href={service.href}>Choose service</Link>
             </article>
           ))}
         </div>

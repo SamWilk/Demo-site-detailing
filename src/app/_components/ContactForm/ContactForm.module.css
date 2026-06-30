@@ -42,6 +42,12 @@
   gap: 12px;
 }
 
+.vehicleGrid {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 1fr;
+  gap: 12px;
+}
+
 .contactForm label {
   display: grid;
   gap: 8px;
@@ -157,7 +163,8 @@
     padding: 22px;
   }
 
-  .fieldGrid {
+  .fieldGrid,
+  .vehicleGrid {
     grid-template-columns: 1fr;
     gap: 0;
   }

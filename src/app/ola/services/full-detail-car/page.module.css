@@ -1,0 +1,60 @@
+.page {
+  min-height: 100vh;
+  color: #101820;
+  background: #f5f8fb;
+}
+
+.hero {
+  padding: 24px;
+  background:
+    linear-gradient(120deg, rgba(8, 18, 28, 0.9), rgba(8, 92, 115, 0.48)),
+    url("/clean-drive/bmw-detail.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.heroContent {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 78px 0 92px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #49d6c8;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.heroContent h1 {
+  max-width: 760px;
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.94;
+  letter-spacing: 0;
+}
+
+.heroContent p {
+  max-width: 640px;
+  margin-top: 24px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 18px;
+  }
+
+  .heroContent {
+    padding: 54px 0 68px;
+  }
+
+  .heroContent h1 {
+    font-size: clamp(2.55rem, 15vw, 3.3rem);
+    line-height: 0.98;
+  }
+}

@@ -4,34 +4,34 @@ import SiteHeader from "../_components/SiteHeader/SiteHeader";
 import styles from "./gallery.module.css";
 
 export const metadata = {
-  title: "Detail Gallery | Detail King 904",
+  title: "Detail Gallery | Clean Drive Mobile Spa",
   description:
-    "View professional detailing photos from Detail King 904 in Jacksonville, FL.",
+    "View mobile car spa and detailing photos from Clean Drive Mobile Spa in Tampa, St. Pete, and Clearwater.",
 };
 
 const projectGroups = [
   {
-    title: "Detail King 904 results",
-    description: "Professional detailing photos from Detail King 904 in Jacksonville.",
+    title: "Clean Drive Mobile Spa results",
+    description: "Mobile car spa photos from Tampa, St. Pete, and Clearwater.",
     layout: "three",
     photos: [
       {
-        src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/AED99DE3-331F-4220-9D06-42E1B62B21DB.jpeg",
-        alt: "Detail King 904 gallery photo 1",
-        label: "Detail",
-        caption: "Featured gallery photo",
-      },
-      {
-        src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/74C06722-92DE-411F-93D5-3DCFA8D66AA6.jpeg",
-        alt: "Detail King 904 gallery photo 2",
+        src: "/clean-drive/bmw-detail.jpg",
+        alt: "Clean Drive Mobile Spa detailed BMW",
         label: "Finish",
-        caption: "Gallery detail photo",
+        caption: "Clean exterior finish",
       },
       {
-        src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/33372B9D-5FFB-4DAA-AC78-E1CB75B0FC1D.jpeg",
-        alt: "Detail King 904 gallery photo 3",
-        label: "Care",
-        caption: "Detail King 904 gallery photo",
+        src: "/clean-drive/corvette-foam.jpg",
+        alt: "Clean Drive Mobile Spa foam wash on red Corvette",
+        label: "Foam",
+        caption: "Exterior foam wash",
+      },
+      {
+        src: "/clean-drive/suv-detail.jpg",
+        alt: "Clean Drive Mobile Spa detailed SUV",
+        label: "Mobile",
+        caption: "SUV detail finish",
       },
     ],
   },
@@ -39,49 +39,24 @@ const projectGroups = [
 
 const additionalPhotos = [
   {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/46B37548-5A68-4DA6-8359-0E3B294AF8D8.jpeg",
-    alt: "Detail King 904 gallery photo 4",
-    caption: "Gallery photo",
+    src: "/clean-drive/detail-vertical.jpg",
+    alt: "Clean Drive Mobile Spa vertical detailing photo",
+    caption: "Mobile detail",
   },
   {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/90BB666E-EE2D-42CF-81ED-BFED4B697CA4.jpeg",
-    alt: "Detail King 904 gallery photo 5",
-    caption: "Gallery photo",
+    src: "/clean-drive/detail-finish.jpg",
+    alt: "Clean Drive Mobile Spa finished vehicle photo",
+    caption: "Finished exterior",
   },
   {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/9A917C06-AEF0-4624-B7B5-F62091F71803.jpeg",
-    alt: "Detail King 904 gallery photo 6",
-    caption: "Gallery photo",
+    src: "/clean-drive/detail-square.jpg",
+    alt: "Clean Drive Mobile Spa square gallery photo",
+    caption: "Car spa result",
   },
   {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000013615.jpg",
-    alt: "Detail King 904 gallery photo 7",
-    caption: "Gallery photo",
-  },
-  {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000013683.jpg",
-    alt: "Detail King 904 gallery photo 8",
-    caption: "Gallery photo",
-  },
-  {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000013615-e1a200b.jpg",
-    alt: "Detail King 904 gallery photo 9",
-    caption: "Gallery photo",
-  },
-  {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000008645.jpg",
-    alt: "Detail King 904 gallery photo 10",
-    caption: "Gallery photo",
-  },
-  {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000012025.jpg",
-    alt: "Detail King 904 gallery photo 11",
-    caption: "Gallery photo",
-  },
-  {
-    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000006522.jpg",
-    alt: "Detail King 904 gallery photo 12",
-    caption: "Gallery photo",
+    src: "/clean-drive/detail-tall.jpg",
+    alt: "Clean Drive Mobile Spa tall gallery photo",
+    caption: "Detailing work",
   },
 ];
 
@@ -92,10 +67,9 @@ export default function GalleryPage() {
         <SiteHeader />
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>Detail gallery</p>
-          <h1>Photos from Detail King 904.</h1>
+          <h1>Photos from Clean Drive Mobile Spa.</h1>
           <p>
-            A look at detailing and vehicle care work from the Jacksonville
-            service area.
+            A look at mobile car spa work from Tampa, St. Pete, and Clearwater.
           </p>
           <Link href="/#contact-form">Book a detail</Link>
         </div>
@@ -145,7 +119,7 @@ export default function GalleryPage() {
 
         <div className={styles.sectionIntro}>
           <p className={styles.eyebrow}>More photos</p>
-          <h2>Additional Detail King 904 work</h2>
+          <h2>Additional Clean Drive work</h2>
         </div>
 
         <div className={styles.galleryGrid}>

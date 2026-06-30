@@ -1,0 +1,410 @@
+.bookingShell {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(340px, 1fr);
+  gap: 24px;
+  padding: 72px 0;
+}
+
+.servicePanel,
+.bookingForm {
+  border: 1px solid #d8e3ea;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 14px 40px rgba(16, 24, 32, 0.08);
+}
+
+.servicePanel {
+  padding: 34px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #087f8c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.servicePanel h1,
+.stepHeader h2 {
+  color: #101820;
+  letter-spacing: 0;
+}
+
+.servicePanel h1 {
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 0.98;
+}
+
+.servicePanel p {
+  margin-top: 18px;
+  color: #52616b;
+  line-height: 1.7;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.summaryGrid span,
+.detailList span {
+  border-radius: 8px;
+  background: #f5f8fb;
+  color: #52616b;
+  line-height: 1.45;
+}
+
+.summaryGrid span {
+  display: grid;
+  gap: 5px;
+  min-height: 88px;
+  padding: 16px;
+}
+
+.summaryGrid strong {
+  color: #101820;
+  font-size: 1.2rem;
+}
+
+.detailList {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.detailList span {
+  padding: 12px 14px;
+  font-weight: 700;
+}
+
+.bookingForm {
+  padding: 30px;
+}
+
+.stepHeader {
+  display: grid;
+  gap: 8px;
+}
+
+.stepHeader span {
+  color: #087f8c;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.stepHeader h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  line-height: 1.05;
+}
+
+.progress {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 22px 0 12px;
+}
+
+.progress span {
+  height: 6px;
+  border-radius: 999px;
+  background: #d8e3ea;
+}
+
+.progress .activeProgress {
+  background: #49d6c8;
+}
+
+.stepContent {
+  display: grid;
+  gap: 14px;
+}
+
+.packageFieldset {
+  border: 0;
+  padding: 0;
+}
+
+.packageFieldset legend {
+  margin-bottom: 12px;
+  color: #101820;
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.packageGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.packageCard,
+.selectedPackage {
+  position: relative;
+  display: grid;
+  gap: 8px;
+  border: 1px solid #d8e3ea;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f5f8fb;
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.packageCard input,
+.selectedPackage input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.selectedPackage {
+  border-color: #087f8c;
+  background: #ddf8f5;
+  box-shadow: 0 0 0 3px rgba(8, 127, 140, 0.12);
+}
+
+.packageTitle {
+  color: #101820;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.packageDescription {
+  color: #52616b;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.packageMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  align-items: center;
+  color: #075c66;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.packageMeta strong {
+  color: #101820;
+}
+
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.vehicleGrid {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 1fr;
+  gap: 12px;
+}
+
+.bookingForm label,
+.timeFieldset legend {
+  color: #101820;
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.bookingForm label {
+  display: grid;
+  gap: 8px;
+}
+
+.bookingForm input,
+.bookingForm textarea {
+  width: 100%;
+  border: 1px solid #d8e3ea;
+  border-radius: 8px;
+  background: #f5f8fb;
+  color: #101820;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.4;
+  outline: none;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.bookingForm input {
+  min-height: 48px;
+  padding: 0 14px;
+}
+
+.bookingForm textarea {
+  min-height: 112px;
+  resize: vertical;
+  padding: 13px 14px;
+}
+
+.bookingForm input:focus,
+.bookingForm textarea:focus {
+  border-color: #087f8c;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(8, 127, 140, 0.16);
+}
+
+.timeFieldset {
+  border: 0;
+  padding: 0;
+}
+
+.timeFieldset legend {
+  margin-bottom: 8px;
+}
+
+.timeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.timeSlot,
+.selectedSlot {
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d8e3ea;
+  border-radius: 8px;
+  padding: 0 10px;
+  background: #f5f8fb;
+  cursor: pointer;
+  text-align: center;
+}
+
+.timeSlot input,
+.selectedSlot input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.selectedSlot {
+  border-color: #087f8c;
+  background: #ddf8f5;
+  color: #075c66;
+}
+
+.inlineNote {
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: #ddf8f5;
+  color: #075c66;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.successMessage,
+.errorMessage {
+  margin-top: 14px;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.successMessage {
+  background: #ddf8f5;
+  color: #075c66;
+}
+
+.errorMessage {
+  background: #fff0df;
+  color: #8a4312;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0 20px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    opacity 180ms ease;
+}
+
+.primaryButton {
+  border: 0;
+  background: #49d6c8;
+  color: #101820;
+}
+
+.secondaryButton {
+  border: 1px solid #b8ccd5;
+  background: #ffffff;
+  color: #101820;
+}
+
+.primaryButton:hover,
+.secondaryButton:hover {
+  transform: translateY(-2px);
+}
+
+.primaryButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  transform: none;
+}
+
+@media (max-width: 900px) {
+  .bookingShell {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .bookingShell {
+    width: min(100% - 36px, 1180px);
+    padding: 52px 0;
+  }
+
+  .servicePanel,
+  .bookingForm {
+    padding: 22px;
+  }
+
+  .summaryGrid,
+  .fieldGrid,
+  .vehicleGrid,
+  .timeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    flex-direction: column-reverse;
+  }
+
+  .actions button {
+    width: 100%;
+  }
+}

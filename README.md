@@ -1,6 +1,6 @@
-# Detail King 904 Site
+# Clean Drive Mobile Spa Site
 
-Next.js site for Detail King 904 with a Resend-backed contact form.
+Next.js site for Clean Drive Mobile Spa with a Resend-backed contact form.
 
 ## Local Setup
 
@@ -15,7 +15,7 @@ Create `.env.local` from `.env.example` and set:
 ```bash
 RESEND_API_KEY=re_...
 CONTACT_TO_EMAIL=samwilk1898@gmail.com
-CONTACT_FROM_EMAIL="Detail King 904 Website <onboarding@resend.dev>"
+CONTACT_FROM_EMAIL="Clean Drive Mobile Spa Website <onboarding@resend.dev>"
 ```
 
 For production, add the same variables in Vercel Project Settings > Environment Variables.

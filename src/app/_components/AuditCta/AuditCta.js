@@ -8,20 +8,21 @@ export default function AuditCta() {
         <p className={styles.eyebrow}>Book a detail</p>
         <h2>Need professional vehicle care without driving across town?</h2>
         <p>
-          Call Detail King 904 for professional detailing, paint correction,
-          certified ceramic coating, window tinting, and water spot removal
-          across the Jacksonville area.
+          Request Clean Drive Mobile Spa for interior and exterior mobile car
+          spa services across Tampa, St. Pete, and Clearwater.
         </p>
       </div>
       <div className={styles.actions}>
         <Link className={styles.primaryButton} href="/#contact-form">
-          Request service
+          Request a detail
         </Link>
         <a
           className={styles.secondaryButton}
-          href="tel:+19046016286"
+          href="https://www.instagram.com/cleandrivemobilespa/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Call 904-601-6286
+          DM on Instagram
         </a>
       </div>
     </section>

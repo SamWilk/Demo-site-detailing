@@ -1,20 +1,19 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Detail King 904 | Jacksonville Mobile Auto Detailing",
+  title: "Clean Drive Mobile Spa | Tampa Bay Mobile Car Detailing",
   description:
-    "Detail King 904 provides professional detailing, paint correction, certified ceramic coating, window tinting, and water spot removal in Jacksonville, FL and surrounding areas.",
+    "Clean Drive Mobile Spa provides mobile car spa services, interior detailing, and exterior detailing in Tampa, St. Pete, and Clearwater.",
   icons: {
     icon: "/site-icon.svg",
   },
   keywords: [
-    "Detail King 904",
-    "Jacksonville mobile detailing",
-    "Jacksonville ceramic coating",
-    "Jacksonville paint correction",
-    "Jacksonville window tinting",
-    "Jacksonville auto detailing",
-    "mobile car detailer Jacksonville",
+    "Clean Drive Mobile Spa",
+    "Tampa mobile detailing",
+    "St. Pete mobile detailing",
+    "Clearwater mobile detailing",
+    "Tampa car detailing",
+    "mobile car spa Tampa Bay",
   ],
 };
 
