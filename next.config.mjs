@@ -12,8 +12,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "s3-media0.fl.yelpcdn.com",
-        pathname: "/bphoto/**",
+        hostname: "img1.wsimg.com",
+        pathname: "/isteam/**",
       },
     ],
   },

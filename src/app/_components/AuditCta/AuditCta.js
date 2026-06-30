@@ -6,10 +6,11 @@ export default function AuditCta() {
     <section className={styles.ctaSection} id="contact">
       <div>
         <p className={styles.eyebrow}>Book a detail</p>
-        <h2>Need your vehicle cleaned without losing half the day?</h2>
+        <h2>Need professional vehicle care without driving across town?</h2>
         <p>
-          Call Florida Boys Mobile Detail for hand wash, auto detailing,
-          protection, and touchless wash service across the Jacksonville area.
+          Call Detail King 904 for professional detailing, paint correction,
+          certified ceramic coating, window tinting, and water spot removal
+          across the Jacksonville area.
         </p>
       </div>
       <div className={styles.actions}>
@@ -18,11 +19,9 @@ export default function AuditCta() {
         </Link>
         <a
           className={styles.secondaryButton}
-          href="https://www.yelp.com/biz/florida-boys-mobile-detail-jacksonville"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="tel:+19046016286"
         >
-          View Yelp profile
+          Call 904-601-6286
         </a>
       </div>
     </section>

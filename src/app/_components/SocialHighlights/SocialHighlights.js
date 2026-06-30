@@ -2,20 +2,20 @@ import styles from "./SocialHighlights.module.css";
 
 const highlights = [
   {
-    name: "Yelp",
-    handle: "Claimed profile, 5.0 rating, 4 reviews, and mobile detail photos",
-    href: "https://www.yelp.com/biz/florida-boys-mobile-detail-jacksonville",
-    icon: "y",
-  },
-  {
     name: "Facebook",
-    handle: "Follow Florida Boys Mobile Detail for updates and mobile detailing work",
-    href: "https://www.facebook.com/floridaboysmobiledetailllc",
+    handle: "Follow Detail King 904 on Facebook",
+    href: "https://www.facebook.com/102750125339229",
     icon: "f",
   },
   {
+    name: "Instagram",
+    handle: "See Detail King 904 work on Instagram",
+    href: "https://www.instagram.com/detailking904?igsh=MTU3cndldGprYjd2OQ==",
+    icon: "ig",
+  },
+  {
     name: "Service request",
-    handle: "Send vehicle, location, and detailing preferences through the form",
+    handle: "Send vehicle, location, and service preferences through the form",
     href: "/#contact-form",
     icon: "904",
   },
@@ -25,12 +25,12 @@ export default function SocialHighlights() {
   return (
     <section className={styles.socialSection}>
       <div className={styles.content}>
-        <p className={styles.eyebrow}>Profiles and proof</p>
-        <h2>Detail photos and local review signals support the service.</h2>
+        <p className={styles.eyebrow}>Profiles and booking</p>
+        <h2>Follow the work or request a Jacksonville-area appointment.</h2>
         <p>
-          Florida Boys Mobile Detail appears on Yelp as a claimed Jacksonville car
-          wash and auto detailing business with a 5.0 rating, visible photos, and
-          mobile coverage across nearby counties.
+          Detail King 904 shares work on Facebook and Instagram and accepts
+          service requests for professional detailing, paint correction, ceramic
+          coating, tinting, and paint decontamination.
         </p>
       </div>
 

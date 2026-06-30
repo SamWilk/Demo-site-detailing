@@ -7,55 +7,65 @@ import SocialHighlights from "./_components/SocialHighlights/SocialHighlights";
 import styles from "./page.module.css";
 
 const serviceAreas = [
-  "Duval County",
-  "Clay County",
-  "Nassau County",
-  "St. Johns County",
+  "Jacksonville, FL",
+  "Surrounding areas",
+  "No water needed",
+  "No power needed",
 ];
 
 const proofPoints = [
   {
-    metric: "5.0",
-    label: "Yelp rating",
-    detail: "Local customers rate the mobile detailing work highly on Yelp.",
+    metric: "904",
+    label: "Jacksonville service",
+    detail: "Mobile detailing for Jacksonville, FL and nearby communities.",
   },
   {
-    metric: "4",
-    label: "Yelp reviews",
-    detail: "A claimed local profile with customer feedback and detail photos.",
+    metric: "0",
+    label: "water or power needed",
+    detail: "Appointments can be handled without customer water or power access.",
   },
   {
-    metric: "1,627",
-    label: "local searches",
-    detail: "Yelp search visibility within 15 miles for car wash services.",
+    metric: "5",
+    label: "core services",
+    detail: "Detailing, paint correction, ceramic coating, tinting, and water spot removal.",
   },
 ];
 
 const services = [
   {
-    title: "Mobile Auto Detailing",
-    copy: "Interior and exterior detailing brought to your driveway, office, or parking spot across the Jacksonville area.",
+    title: "Professional Detailing",
+    copy: "Interior and exterior detailing brought to your driveway, workplace, or parking spot across Jacksonville.",
     href: "#contact-form",
   },
   {
-    title: "Hand Washing",
-    copy: "Careful handwashing for vehicles that need a clean finish without the rushed feel of a tunnel wash.",
+    title: "Paint Correction",
+    copy: "Correction work for swirls, haze, and defects that keep paint from looking deep, glossy, and clear.",
     href: "#contact-form",
   },
   {
-    title: "Protection Packages",
-    copy: "Paint-safe protection services for drivers who want their vehicle cleaned, refreshed, and easier to maintain.",
+    title: "Certified Ceramic Coating",
+    copy: "Certified ceramic coating installation for long-term gloss, easier washing, and stronger paint protection.",
+    href: "#contact-form",
+  },
+  {
+    title: "Window Tinting",
+    copy: "Window tinting service for a cleaner look, added privacy, and a more comfortable cabin.",
+    href: "#contact-form",
+  },
+  {
+    title: "Paint Decontamination",
+    copy: "Water spot removal and paint decon service for contamination that a regular wash will not clear.",
     href: "#contact-form",
   },
 ];
 
 const checklist = [
-  "Mobile appointments",
-  "Hand wash service",
-  "Interior detailing",
-  "Exterior detailing",
-  "Protection options",
-  "Touchless wash options",
+  "Professional detailing",
+  "Paint correction",
+  "Certified ceramic coatings",
+  "Window tinting",
+  "Water spot removal",
+  "Gift certificates",
 ];
 
 export default function Home() {
@@ -67,11 +77,11 @@ export default function Home() {
         <div className={styles.heroGrid} id="top">
           <div className={styles.heroContent}>
             <p className={styles.eyebrow}>Jacksonville mobile detailing</p>
-            <h1>Mobile car detailing that comes to your curb.</h1>
+            <h1>Detail King 904 brings the detail shop to you.</h1>
             <p className={styles.heroText}>
-              Florida Boys Mobile Detail brings hand wash, auto detailing,
-              touchless wash, and protection services to drivers across Duval,
-              Clay, Nassau, and St. Johns counties.
+              Professional detailing, paint correction, certified ceramic
+              coating, window tinting, and water spot removal for Jacksonville,
+              FL and surrounding areas. No water or power necessary.
             </p>
             <div className={styles.heroActions}>
               <a className={styles.primaryButton} href="#contact-form">
@@ -94,8 +104,8 @@ export default function Home() {
 
       <section className={styles.section} id="proof">
         <SectionIntro
-          eyebrow="Local trust signals"
-          title="A claimed Jacksonville detailing profile with strong local signals."
+          eyebrow="Mobile service"
+          title="Built for convenient detailing wherever your vehicle is parked."
         />
         <div className={styles.winGrid}>
           {proofPoints.map((point) => (
@@ -110,12 +120,12 @@ export default function Home() {
 
       <section className={styles.splitSection} id="approach">
         <div>
-          <p className={styles.eyebrow}>How the detail gets handled</p>
-          <h2>Clean scheduling, careful washing, and a finish ready to drive.</h2>
+          <p className={styles.eyebrow}>How the work gets handled</p>
+          <h2>High-end vehicle care without needing your water or power.</h2>
           <p>
-            The service is built around convenience: mobile appointments, clear
-            detail options, and vehicle care that fits around your day instead of
-            sending you across town.
+            Detail King 904 serves Jacksonville-area drivers with mobile
+            appointments, coating-ready prep, correction work, tinting, and
+            clean follow-through from first call to finished vehicle.
           </p>
         </div>
         <div className={styles.checkPanel}>
@@ -131,7 +141,7 @@ export default function Home() {
       <section className={styles.section} id="services">
         <SectionIntro
           eyebrow="Services"
-          title="Detailing services for daily drivers, family cars, and clean weekend rides."
+          title="Detailing and protection services for daily drivers, weekend cars, and clean builds."
         />
         <div className={styles.serviceGrid}>
           {services.map((service) => (

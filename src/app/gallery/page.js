@@ -4,34 +4,34 @@ import SiteHeader from "../_components/SiteHeader/SiteHeader";
 import styles from "./gallery.module.css";
 
 export const metadata = {
-  title: "Detail Gallery | Florida Boys Mobile Detail",
+  title: "Detail Gallery | Detail King 904",
   description:
-    "View mobile auto detailing photos from Florida Boys Mobile Detail in Jacksonville, FL.",
+    "View professional detailing photos from Detail King 904 in Jacksonville, FL.",
 };
 
 const projectGroups = [
   {
-    title: "Mobile detail results",
-    description: "Detail photos from Florida Boys Mobile Detail in Jacksonville.",
+    title: "Detail King 904 results",
+    description: "Professional detailing photos from Detail King 904 in Jacksonville.",
     layout: "three",
     photos: [
       {
-        src: "https://s3-media0.fl.yelpcdn.com/bphoto/VYJSl70TuSloJ4igFVb-Eg/l.jpg",
-        alt: "Florida Boys Mobile Detail vehicle detailing photo in Jacksonville, FL",
+        src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/AED99DE3-331F-4220-9D06-42E1B62B21DB.jpeg",
+        alt: "Detail King 904 gallery photo 1",
         label: "Detail",
-        caption: "Mobile detailing service",
+        caption: "Featured gallery photo",
       },
       {
-        src: "https://s3-media0.fl.yelpcdn.com/bphoto/q6xa5SRsdz_R3GPmKKGrZw/l.jpg",
-        alt: "Florida Boys Mobile Detail car wash photo in Jacksonville, FL",
-        label: "Wash",
-        caption: "Hand wash and clean finish",
+        src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/74C06722-92DE-411F-93D5-3DCFA8D66AA6.jpeg",
+        alt: "Detail King 904 gallery photo 2",
+        label: "Finish",
+        caption: "Gallery detail photo",
       },
       {
-        src: "https://s3-media0.fl.yelpcdn.com/bphoto/2HOy2STosNqt247vGK9w6A/l.jpg",
-        alt: "Florida Boys Mobile Detail exterior detail photo",
-        label: "Exterior",
-        caption: "Exterior detail work",
+        src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/33372B9D-5FFB-4DAA-AC78-E1CB75B0FC1D.jpeg",
+        alt: "Detail King 904 gallery photo 3",
+        label: "Care",
+        caption: "Detail King 904 gallery photo",
       },
     ],
   },
@@ -39,14 +39,49 @@ const projectGroups = [
 
 const additionalPhotos = [
   {
-    src: "https://s3-media0.fl.yelpcdn.com/bphoto/4UCwr6ExUYUyuhFhbuZbNw/l.jpg",
-    alt: "Florida Boys Mobile Detail auto detailing result",
-    caption: "Auto detailing work",
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/46B37548-5A68-4DA6-8359-0E3B294AF8D8.jpeg",
+    alt: "Detail King 904 gallery photo 4",
+    caption: "Gallery photo",
   },
   {
-    src: "https://s3-media0.fl.yelpcdn.com/bphoto/QnZTbJe8aOPcKDqEfiuDTg/l.jpg",
-    alt: "Florida Boys Mobile Detail vehicle cleaning photo",
-    caption: "Vehicle cleaning detail",
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/90BB666E-EE2D-42CF-81ED-BFED4B697CA4.jpeg",
+    alt: "Detail King 904 gallery photo 5",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/9A917C06-AEF0-4624-B7B5-F62091F71803.jpeg",
+    alt: "Detail King 904 gallery photo 6",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000013615.jpg",
+    alt: "Detail King 904 gallery photo 7",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000013683.jpg",
+    alt: "Detail King 904 gallery photo 8",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000013615-e1a200b.jpg",
+    alt: "Detail King 904 gallery photo 9",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000008645.jpg",
+    alt: "Detail King 904 gallery photo 10",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000012025.jpg",
+    alt: "Detail King 904 gallery photo 11",
+    caption: "Gallery photo",
+  },
+  {
+    src: "https://img1.wsimg.com/isteam/ip/47346fc5-530e-4b5c-a6bf-5f4a7698897a/1000006522.jpg",
+    alt: "Detail King 904 gallery photo 12",
+    caption: "Gallery photo",
   },
 ];
 
@@ -57,10 +92,10 @@ export default function GalleryPage() {
         <SiteHeader />
         <div className={styles.heroContent}>
           <p className={styles.eyebrow}>Detail gallery</p>
-          <h1>Photos from Florida Boys Mobile Detail.</h1>
+          <h1>Photos from Detail King 904.</h1>
           <p>
-            A look at mobile wash and detailing work from the Jacksonville service
-            area.
+            A look at detailing and vehicle care work from the Jacksonville
+            service area.
           </p>
           <Link href="/#contact-form">Book a detail</Link>
         </div>
@@ -69,7 +104,7 @@ export default function GalleryPage() {
       <section className={styles.gallerySection} aria-label="Mobile detailing gallery">
         <div className={styles.sectionIntro}>
           <p className={styles.eyebrow}>Featured work</p>
-          <h2>Mobile detailing photos</h2>
+          <h2>Professional detailing photos</h2>
         </div>
 
         <div className={styles.projectStack}>
@@ -110,7 +145,7 @@ export default function GalleryPage() {
 
         <div className={styles.sectionIntro}>
           <p className={styles.eyebrow}>More photos</p>
-          <h2>Additional detailing work</h2>
+          <h2>Additional Detail King 904 work</h2>
         </div>
 
         <div className={styles.galleryGrid}>

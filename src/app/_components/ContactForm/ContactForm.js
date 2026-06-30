@@ -28,7 +28,7 @@ export default function ContactForm() {
       id="contact-form"
       className={styles.contactForm}
       action={formAction}
-      aria-label="Request service from Florida Boys Mobile Detail"
+      aria-label="Request service from Detail King 904"
     >
       <div className={styles.formHeader}>
         <p>Book mobile detailing</p>
@@ -65,12 +65,12 @@ export default function ContactForm() {
           <option value="" disabled>
             Select a service
           </option>
-          <option>Mobile auto detailing</option>
-          <option>Interior detail</option>
-          <option>Exterior detail</option>
-          <option>Hand wash</option>
-          <option>Touchless wash</option>
-          <option>Protection package</option>
+          <option>Professional detailing</option>
+          <option>Paint correction</option>
+          <option>Certified ceramic coating</option>
+          <option>Window tinting</option>
+          <option>Paint decon / water spot removal</option>
+          <option>Gift certificate</option>
         </select>
       </label>
 
@@ -93,7 +93,7 @@ export default function ContactForm() {
       ) : null}
 
       <p className={styles.formNote}>
-        Prefer to talk now? <a href="tel:+19044229660">Call (904) 422-9660</a>.
+        Prefer to talk now? <a href="tel:+19046016286">Call 904-601-6286</a>.
       </p>
     </form>
   );

@@ -1,16 +1,18 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Florida Boys Mobile Detail | Jacksonville Mobile Car Detailing",
+  title: "Detail King 904 | Jacksonville Mobile Auto Detailing",
   description:
-    "Florida Boys Mobile Detail provides mobile auto detailing, handwashing, touchless wash, and protection services across the Jacksonville, FL area.",
+    "Detail King 904 provides professional detailing, paint correction, certified ceramic coating, window tinting, and water spot removal in Jacksonville, FL and surrounding areas.",
   icons: {
     icon: "/site-icon.svg",
   },
   keywords: [
-    "Florida Boys Mobile Detail",
+    "Detail King 904",
     "Jacksonville mobile detailing",
-    "Jacksonville car wash",
+    "Jacksonville ceramic coating",
+    "Jacksonville paint correction",
+    "Jacksonville window tinting",
     "Jacksonville auto detailing",
     "mobile car detailer Jacksonville",
   ],

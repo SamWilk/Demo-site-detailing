@@ -24,22 +24,22 @@ export async function sendContactRequest(_previousState, formData) {
   if (!process.env.RESEND_API_KEY) {
     return {
       ok: false,
-      message: "This form is not configured yet. Please call (904) 422-9660.",
+      message: "This form is not configured yet. Please call 904-601-6286.",
     };
   }
 
   const toEmail = process.env.CONTACT_TO_EMAIL || "samwilk1898@gmail.com";
   const fromEmail =
     process.env.CONTACT_FROM_EMAIL ||
-    "Florida Boys Website <onboarding@resend.dev>";
+    "Detail King 904 Website <onboarding@resend.dev>";
 
   try {
     await resend.emails.send({
       from: fromEmail,
       to: toEmail,
-      subject: `New Florida Boys detail request from ${name}`,
+      subject: `New Detail King 904 request from ${name}`,
       text: [
-        "New detail request from the Florida Boys Mobile Detail website.",
+        "New detail request from the Detail King 904 website.",
         "",
         `Name: ${name}`,
         `Phone: ${phone}`,
@@ -52,12 +52,12 @@ export async function sendContactRequest(_previousState, formData) {
 
     return {
       ok: true,
-      message: "Request sent. Florida Boys Mobile Detail will follow up by phone.",
+      message: "Request sent. Detail King 904 will follow up by phone.",
     };
   } catch {
     return {
       ok: false,
-      message: "The request could not be sent. Please call (904) 422-9660.",
+      message: "The request could not be sent. Please call 904-601-6286.",
     };
   }
 }

@@ -1,6 +1,6 @@
-# Florida Boys Mobile Detail Site
+# Detail King 904 Site
 
-Next.js site for Florida Boys Mobile Detail with a Resend-backed contact form.
+Next.js site for Detail King 904 with a Resend-backed contact form.
 
 ## Local Setup
 
@@ -15,7 +15,7 @@ Create `.env.local` from `.env.example` and set:
 ```bash
 RESEND_API_KEY=re_...
 CONTACT_TO_EMAIL=samwilk1898@gmail.com
-CONTACT_FROM_EMAIL="Florida Boys Website <onboarding@resend.dev>"
+CONTACT_FROM_EMAIL="Detail King 904 Website <onboarding@resend.dev>"
 ```
 
 For production, add the same variables in Vercel Project Settings > Environment Variables.
