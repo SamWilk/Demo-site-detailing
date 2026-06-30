@@ -49,14 +49,9 @@ const additionalPhotos = [
     caption: "Finished exterior",
   },
   {
-    src: "/clean-drive/detail-square.jpg",
-    alt: "Clean Drive Mobile Spa square gallery photo",
-    caption: "Car spa result",
-  },
-  {
-    src: "/clean-drive/detail-tall.jpg",
-    alt: "Clean Drive Mobile Spa tall gallery photo",
-    caption: "Detailing work",
+    src: "/clean-drive/ram-wash.jpg",
+    alt: "Clean Drive Mobile Spa washing a RAM truck",
+    caption: "Truck wash",
   },
 ];
 
