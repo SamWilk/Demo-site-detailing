@@ -8,6 +8,12 @@ const highlights = [
     icon: "ig",
   },
   {
+    name: "Facebook",
+    handle: "Follow Clean Drive Mobile Spa on Facebook",
+    href: "https://www.facebook.com/p/Clean-Drive-Mobile-Spa-61585479236748/",
+    icon: "f",
+  },
+  {
     name: "Service request",
     handle: "Send vehicle, location, and car spa preferences through the form",
     href: "/#contact-form",
@@ -28,8 +34,8 @@ export default function SocialHighlights() {
         <p className={styles.eyebrow}>Profiles and booking</p>
         <h2>Follow the work or request a Tampa Bay appointment.</h2>
         <p>
-          Clean Drive Mobile Spa shares car spa work on Instagram and accepts
-          service requests for interior and exterior detailing.
+          Clean Drive Mobile Spa shares car spa work on Instagram and Facebook
+          and accepts service requests for interior and exterior detailing.
         </p>
       </div>
 

@@ -20,14 +20,14 @@ const proofPoints = [
     detail: "Mobile car spa service across Tampa, St. Pete, and Clearwater.",
   },
   {
-    metric: "24",
-    label: "Instagram posts",
-    detail: "A growing feed of mobile detailing work and clean finishes.",
+    metric: "2",
+    label: "detail focus areas",
+    detail: "Interior and exterior services cover the cabin, finish, wheels, glass, and trim.",
   },
   {
-    metric: "26",
-    label: "profile followers",
-    detail: "Clean Drive Mobile Spa is building its local Tampa Bay presence.",
+    metric: "DM",
+    label: "pricing by request",
+    detail: "Share the vehicle, location, and condition so the right service can be matched.",
   },
 ];
 
