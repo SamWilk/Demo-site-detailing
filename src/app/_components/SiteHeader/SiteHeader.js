@@ -8,8 +8,8 @@ export default function SiteHeader({ variant = "light" }) {
         Clean Drive Mobile Spa
       </Link>
       <nav className={styles.navLinks} aria-label="Main navigation">
-        <Link href="/#proof">Mobile Service</Link>
         <Link href="/#services">Services</Link>
+        <Link href="/#proof">Mobile Service</Link>
         <Link href="/gallery">Gallery</Link>
         <Link href="/#contact-form">Contact</Link>
       </nav>

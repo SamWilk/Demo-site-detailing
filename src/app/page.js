@@ -95,17 +95,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.section} id="proof">
+      <section className={styles.section} id="services">
         <SectionIntro
-          eyebrow="Mobile service"
-          title="Built for convenient detailing wherever your vehicle is parked."
+          eyebrow="Services"
+          title="Choose the mobile car spa service that fits the vehicle."
         />
-        <div className={styles.winGrid}>
-          {proofPoints.map((point) => (
-            <article className={styles.winCard} key={point.label}>
-              <strong>{point.metric}</strong>
-              <h3>{point.label}</h3>
-              <p>{point.detail}</p>
+        <div className={styles.serviceGrid}>
+          {services.map((service) => (
+            <article className={styles.serviceCard} key={service.title}>
+              <h3>{service.title}</h3>
+              <p>{service.copy}</p>
+              <Link href={service.href}>Choose service</Link>
             </article>
           ))}
         </div>
@@ -131,17 +131,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.section} id="services">
+      <section className={styles.section} id="proof">
         <SectionIntro
-          eyebrow="Services"
-          title="Choose the mobile car spa service that fits the vehicle."
+          eyebrow="Mobile service"
+          title="Built for convenient detailing wherever your vehicle is parked."
         />
-        <div className={styles.serviceGrid}>
-          {services.map((service) => (
-            <article className={styles.serviceCard} key={service.title}>
-              <h3>{service.title}</h3>
-              <p>{service.copy}</p>
-              <Link href={service.href}>Choose service</Link>
+        <div className={styles.winGrid}>
+          {proofPoints.map((point) => (
+            <article className={styles.winCard} key={point.label}>
+              <strong>{point.metric}</strong>
+              <h3>{point.label}</h3>
+              <p>{point.detail}</p>
             </article>
           ))}
         </div>
